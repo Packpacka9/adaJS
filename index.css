@@ -1,63 +1,67 @@
-*{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-	margin: 0 auto;
-	max-width: 1200px;
-	background-color: black;
+body {
+  margin: 0 auto;
+  max-width: 1200px;
+  background-image: linear-gradient(
+    270deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(0, 255, 111, 1) 0%,
+    rgba(168, 125, 125, 1) 100%
+  );
 }
 
-
-.gif{
-	display: flex;
-	height: 100vh;
-	align-items: center;
+.gif {
+  display: flex;
+  height: 100vh;
+  align-items: center;
 }
 
-.container{
-	margin: -100px 0 0 10px;
+.container {
+  margin: -100px 0 0 10px;
 }
 
-.timer{
-	color: white;
-	font-size: 50px;
-	text-align: center;
-	margin-bottom: 5px;
-	width: 200px;
-	margin: 20px 0 0 330px;
+.timer {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 5px;
+  width: 200px;
+  margin: 20px 0 0 330px;
 }
 
-.active{
-	color: white;
-	font-size: 30px;
-	padding: 10px 0;
-	margin: 10px 0 20px 315px;
-	width: 231px;
-	background: blueviolet;
-	text-align: center;
-	border-radius: 10px;
-	font-weight: 500;
-	cursor: pointer;
+.active {
+  color: white;
+  font-size: 30px;
+  padding: 10px 0;
+  margin: 10px 0 20px 315px;
+  width: 231px;
+  background: blueviolet;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
 }
 
-.active:hover{
-	background-color: #fff;
-	color:black
+.active:hover {
+  background-color: #fff;
+  color: black;
 }
 
-.qweqweqwe{
-	display: flex;
+.qweqweqwe {
+  display: flex;
 }
 
-.adressActive{
-	color: white;
-	font-size: 20px;
-	width: 600px;
-	margin-left: 120px;
-	word-wrap: break-word;
+.adressActive {
+  color: white;
+  font-size: 20px;
+  width: 600px;
+  margin-left: 120px;
+  word-wrap: break-word;
 }
 
 /* .container{
@@ -105,46 +109,46 @@ body{
 	height: 638px;
 	width: 1081px;
 	/* background-color: green; */
-	/* background: url('https://nerdscnft.io/static/chalkboard-doodles-00286d08589cf369473ba567341bab0b.png'),
+/* background: url('https://nerdscnft.io/static/chalkboard-doodles-00286d08589cf369473ba567341bab0b.png'),
 	url('https://nerdscnft.io/static/chalkboard-bg-c375d7eece79bd1f234e2b6e7a066611.png') center no-repeat;
 } */
 
-.addressActive{
-	display: block;
+.addressActive {
+  display: block;
 }
 
-h1{
-	margin-bottom: 30px;
+h1 {
+  margin-bottom: 30px;
 }
 
-.address p{
-	font-size: 20px;
-	font-weight: 700;
-	margin-bottom: 15px;
+.address p {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 
-.address123{
-	color: black;
-	background-color: white;
-	width: 800px;
-	word-wrap: break-word;
+.address123 {
+  color: black;
+  background-color: white;
+  width: 800px;
+  word-wrap: break-word;
 }
 
-.divdiv{
-	border: 5px solid white;
-	font-size: 22px;
-	font-weight: bold;
-	padding: 10px 15px;
-	width: 680px;
-	margin-bottom: 15px;
+.divdiv {
+  border: 5px solid white;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 10px 15px;
+  width: 680px;
+  margin-bottom: 15px;
 }
 
-.ppppppppp{
-	font-size: 16px;
+.ppppppppp {
+  font-size: 16px;
 }
 
 @media (max-width: 1000px) {
-	.gif img {
-		display: none;
-	}
+  .gif img {
+    display: none;
+  }
 }

@@ -1,41 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>mint</title>
-	<link rel="stylesheet" href="index.css">
-</head>
-<body>
-	<div class="gif">
-		<div>
-			<img width="350px" src="https://pbs.twimg.com/media/F19LTReaIAA5lOd?format=jpg&name=medium" alt="">
-		</div>
-		<div class="container">
-			<div class="timer"></div>
-			<div id="button"></div>
-			<div id="adress" value='addr1qydt6qa7xn7dh5sag6msvv08469xaxdf5r60q7t5f3ys65m87auwu03pzdkt9cxxvpkuz4xcjwey23usv2nfn9rjtjcqz0362w'></div>
-		</div>
-	</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mint</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="gif">
+      <div>
+        <img
+          width="350px"
+          src="https://pbs.twimg.com/media/F19LTReaIAA5lOd?format=jpg&name=medium"
+          alt=""
+        />
+      </div>
+      <div class="container">
+        <div class="timer"></div>
+        <div id="button"></div>
+        <div
+          id="adress"
+          value="addr1qydt6qa7xn7dh5sag6msvv08469xaxdf5r60q7t5f3ys65m87auwu03pzdkt9cxxvpkuz4xcjwey23usv2nfn9rjtjcqz0362w"
+        ></div>
+      </div>
+    </div>
 
-	<script>
-		const timer = document.querySelector('.timer')
-		const button = document.querySelector('#button')
-		const adress = document.querySelector('#adress')
+    <script>
+      const timer = document.querySelector(".timer");
+      const button = document.querySelector("#button");
+      const adress = document.querySelector("#adress");
 
-		timer.innerHTML = '00:00:01'
+      timer.innerHTML = "00:00:01";
 
-		setTimeout(() => {
-			timer.innerHTML = '00:00:00'
-			button.innerHTML = 'mint 35 ada'
-			button.classList.add('active')
-		}, 1000);
-		
-		button.onclick = function(){
-			adress.classList.add('adressActive')
-			adress.innerHTML = 'addr1qydt6qa7xn7dh5sag6msvv08469xaxdf5r60q7t5f3ys65m87auwu03pzdkt9cxxvpkuz4xcjwey23usv2nfn9rjtjcqz0362w'
-		}
-	</script>
-</body>
+      setTimeout(() => {
+        timer.innerHTML = "00:00:00";
+        button.innerHTML = "mint 35 ada";
+        button.classList.add("active");
+      }, 1000);
+
+      button.onclick = function () {
+        adress.classList.add("adressActive");
+        adress.innerHTML =
+          "addr1qydt6qa7xn7dh5sag6msvv08469xaxdf5r60q7t5f3ys65m87auwu03pzdkt9cxxvpkuz4xcjwey23usv2nfn9rjtjcqz0362w";
+      };
+    </script>
+  </body>
 </html>
